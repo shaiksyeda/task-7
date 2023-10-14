@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+    table { 
+        border: 1px solid black; 
+        margin-left: auto; 
+        margin-right: auto;
+        height: 500px;
+        width: 300px;
+        border: solid rgb(239, 109, 189);
+        border-spacing: 10px;
+       
+    } 
+    .heading{
+       -webkit-text-fill-color:mediumorchid;
+    }
+      
+    input[type="button"] { 
+        width: 100%; 
+        padding: 20px 20px; 
+        font-size: 15px; 
+        font-weight: bold; 
+        border: none rgb(229, 116, 116); 
+        border-radius: 5px; 
+    } 
+      
+    input[type="text"] { 
+        width: 100%;
+        padding: 10px 20px; 
+        font-size: 5px; 
+        font-weight: bold; 
+        border: none; 
+        border-radius: 5px; 
+        border:solid rebeccapurple; 
+        }
+        .btn
+        {
+            background-color: rgb(249, 18, 156);
+        }
+        input[type="button"]{
+            background-color: cyan;
+
+        }
+
+</style>  
+</head> 
+  
+<body> 
+    <h1 class="heading"><center>Calculator</center></h1>
+    <table id="calcu"> 
+        <tr> 
+            <td colspan="3"> 
+                <input type="text" id="result">
+            </td>  
+        </tr> <br>
+<div>
+        <tr> 
+            <td><input type="button" value="1"></td> 
+            <td><input type="button" value="2"></td> 
+            <td><input type="button" value="3"></td> 
+            <td class="btn"><input type="button" value="+"></td> 
+        </tr> 
+</div>
+        <tr> 
+            <td><input type="button" value="4"></td> 
+            <td><input type="button" value="5"></td> 
+            <td><input type="button" value="6"></td>
+            <td class="btn"><input type="button" value="-"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="7"></td> 
+            <td><input type="button" value="8"></td> 
+            <td><input type="button" value="9"></td> 
+            <td class="btn"><input type="button" value="*"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="00"></td> 
+            <td><input type="button" value="0"></td> 
+            <td><input type="button" value="."></td> 
+            <td class="btn"><input type="button" value="/"></td> 
+        </tr> 
+        <tr>
+            <td><input type="button" value="AC"></td>
+            <td><input type="button" value="DEL"></td>
+            <td><input type="button" value="%"></td>
+            <td class="btn"><input type="button" value="="></td>
+        </tr>
+    </table> 
+</body>
+</html>
